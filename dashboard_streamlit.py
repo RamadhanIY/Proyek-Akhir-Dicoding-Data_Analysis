@@ -143,7 +143,7 @@ with st.sidebar:
         "https://github.com/RamadhanIY/Proyek-Akhir-Dicoding-Data_Analysis/blob/main/Logo_Fashion_2.png?raw=true"
     )
     start_date, end_date = st.date_input(
-        label="Rentang Waktu",
+        label="Time Range",
         min_value=min_date,
         max_value=max_date,
         value=[min_date, max_date],
